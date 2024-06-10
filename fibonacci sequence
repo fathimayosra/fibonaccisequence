@@ -1,0 +1,7 @@
+count =int(input("Enter the input: "))
+a=0
+b=1
+for i  in range(count):
+    print(a, end='')
+    a,b=b,a+b
+    
